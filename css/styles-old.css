@@ -2,14 +2,7 @@
 
 
 
-textarea{
-    width: 360px;
-    height: 120px;
-    border: 1px solid #2E2F42;
-    border-radius: 4px;
-    resize: none;
-    outline: none;
-}
+
 
 
 
@@ -42,6 +35,7 @@ textarea{
 
 
 /*Контакты*/
+
 
 
 /*Hero banner*/
@@ -349,9 +343,6 @@ margin-bottom: 8px;
     background-color: #404bbf;
 } 
 
-.social-item{
-
-}
 
 
 .social-media {
@@ -714,4 +705,13 @@ display: block;
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
+}
+
+textarea{
+    width: 360px;
+    height: 120px;
+    border: 1px solid #2E2F42;
+    border-radius: 4px;
+    resize: none;
+    outline: none;
 }
