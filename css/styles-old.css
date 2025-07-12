@@ -378,6 +378,9 @@ margin-bottom: 8px;
     padding: 100px 0;
 }
 
+.logo-footer{
+
+}
 
 .logo-footer-full{
     font-weight: 700;
@@ -416,7 +419,7 @@ margin-bottom: 8px;
 }
 
 .footer a{
-
+ /*   display: inline-block;*/
     margin-bottom: 16px;
 }
 
@@ -442,6 +445,11 @@ margin-bottom: 8px;
 .social-link:focus {
     background-color: #404bbf;
 } 
+
+.social-item{
+
+}
+
 
 .social-media {
     font-weight: 500;
@@ -652,15 +660,10 @@ margin-bottom: 8px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
-/*    padding-top: 72px;*/
+    
     margin-bottom: 16px;
 }
 
-/*Form
-.modal-form {
-    width: 408px;
-    min-height: 584px;
-}*/
 
 .modal-label{
 font-weight: 400;
