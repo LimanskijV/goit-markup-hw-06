@@ -28,6 +28,10 @@ img {
     height: auto;
 }
 
+button {
+    cursor: pointer;
+}
+
 a:hover,
 a:focus{
     text-decoration: none;
@@ -97,12 +101,18 @@ margin: 0 auto;
 .burger-btn{
     padding: 0;
     border: none;
-    background-color: transparent;
-    display: block;
-    fill: #2f2f37;
+    /*background-color: transparent;*/
 
-}
+ }
 
 .burger-icon{
-    
+        fill: #2f2f37;   
+        display: block;
 }
+
+@media screen and (min-width: 768px){
+    .burger-btn{
+        display:none;
+    }
+}
+
