@@ -66,8 +66,38 @@ margin: 0 auto;
 .header-list{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.burger-icon{
-fill: #2f2f37;
+.navigation-list,
+.address{
+    display: none;
+}
+
+.logo-full, 
+.logo-web{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+}
+
+.logo-full{
+    display:block;
+    padding: 16px 0;
+
+}
+.logo-web {
+    color: #2E2F42;
+}
+
+.burger-btn{
+    padding: 0;
+    border: none;
+    background-color: transparent; 
+    display: block;
+
 }
