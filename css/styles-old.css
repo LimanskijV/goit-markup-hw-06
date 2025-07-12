@@ -1,31 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
 
-.all{
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
 
-ul{
-    list-style-type: none;
-}
 
-a{
-    text-decoration: none;
-}
-
-img {
-    display: block;
-}
-
-a:hover,
-a:focus{
-    text-decoration: none;
-}
 
 textarea{
     width: 360px;
@@ -36,13 +11,7 @@ textarea{
     outline: none;
 }
 
-.container { 
-max-width: 1158px;
-padding-left:  15px;
-padding-right:  15px;
-margin: 0 auto; 
-/*border: 2px solid #2E2F42;*/
-}
+
 
 /*Стили логотипа*/
 
