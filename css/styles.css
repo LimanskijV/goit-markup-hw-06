@@ -475,13 +475,61 @@ display: block;
     padding: 72px 0;
     background-image: 
     linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url("../images/background1.jpg");
+    url("../images/bg-mobile-large.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-position: center;
 }
 
+@media screen and (min-width: 768px){
+    .hero-banner{
+        max-width: 768px;
+        height: 436px;
+        background-image: 
+        linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url("../images/bg-planshet-large.jpg");
+    }
+}
 
+@media screen and (min-width: 1158px){
+    .hero-banner{
+        max-width: 768px;
+        height: 436px;
+        background-image: 
+        linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url("../images/background1.jpg");
+    }
+}
+
+
+.hero-banner-text {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 216px;
+        margin: 0 auto;
+        margin-bottom: 72px;
+    }
+
+
+@media screen and (min-width: 768px){
+    .hero-banner-text {
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;        
+        max-width: 496px;        
+        margin-bottom: 36px;
+    }
+}
+
+@media screen and (min-width: 1158px){
+    .hero-banner-text {
+        margin-bottom: 48px;
+    }
+}
 
 
 /*hero banner - end*/
