@@ -52,7 +52,7 @@
     background-position: center;
 }*/
 
-.hero-banner-text {
+/*.hero-banner-text {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -62,7 +62,7 @@
     max-width: 496px;
     margin: 0 auto;
     margin-bottom: 48px;
-}
+}*/ 
 
 .hero-banner-button:hover,
 .hero-banner-button:focus{
