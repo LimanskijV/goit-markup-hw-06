@@ -40,7 +40,7 @@
 
 /*Hero banner*/
 
-.hero-banner {
+/*.hero-banner {
     margin: 0 auto;
     max-width: 1440px;
     padding: 188px 0;
@@ -50,7 +50,7 @@
     background-size:cover;
     background-repeat:no-repeat;
     background-position: center;
-}
+}*/
 
 .hero-banner-text {
     font-weight: 700;
@@ -474,7 +474,7 @@ margin-bottom: 8px;
 
 }
 
-/*Modal window*/
+/*Modal window
 
 .modal{
     position: fixed;
@@ -512,7 +512,7 @@ margin-bottom: 8px;
     padding: 72px 24px 24px 24px;
 }
 
-.modal-button-close {
+/*.modal-button-close {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     width: 24px;
@@ -619,7 +619,7 @@ display: block;
     position: relative;
 }
 
-
+*/
 .button-down {
     border: none;
     border-radius: 4px;
