@@ -226,8 +226,8 @@ margin: 0 auto;
 /* header */
 
 .header-all{
-    padding-top: 16px;
-    height: 56px;
+    /*padding-top: 16px;
+    height: 56px;*/
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
     border-bottom: 1px solid #E7E9FC;
 }
@@ -237,11 +237,11 @@ margin: 0 auto;
         display: none;
     }
 
-    .header-all{
+    /*.header-all{
         display: flex;
         align-items: center;
         height: 72px;
-    }
+    }*/
 }
 
 .header-box {
@@ -1176,4 +1176,5 @@ margin-bottom: 8px;
     color: #FFFFFF;
     margin: 0 auto;
     display: block;
+
 }
